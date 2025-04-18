@@ -17,7 +17,7 @@ This project implements a pipeline for generating, refining, and evaluating capt
 - **Metrics**:
   - **CLIP Score**: Cosine similarity between image and caption embeddings.
   - **SLA Rank**: Rank of the matching caption among all captions in the batch (lower is better).
-- **Output**: JSON files with per-caption scores (e.g., `*_scores_with_sla.json`)
+- **Output**: JSON files with per-caption scores (e.g., `*_scores_with_sla.json`).
 - **Script**: `scripts/clip_score_sla.py`
 
 ### Step 3: Caption Refinement
